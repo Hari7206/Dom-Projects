@@ -37,8 +37,129 @@ border: none;
 padding: 25px 20px;
 font-size: 1rem;
 position: relative;
+outline: none;
 } 
+
 .search input::placeholder{
 color: whitesmoke;
 letter-spacing: 1px;
+}
+.search i {
+  position: absolute;
+  right: 40px;
+  font-size: 1.3rem;
+  top: 34px;
+  cursor: pointer;
+  
+}
+span {
+  display: flex;
+  gap: 5px;
+}
+.location {
+  letter-spacing: 1px;
+  margin-top: 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.location h2 {
+  font-size: 1.8rem;
+}
+.location i {
+  font-size: 1.5rem;
+  margin-top: 4px;
+  color: rgba(255, 255, 255, 0.658);
+}
+.location p {
+  font-size: 1.2rem;
+}
+.weather {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#weatherIcon {
+font-size: 6rem;
+margin-left: 40px;
+}
+.des {
+  text-align: center;
+}
+.des #temp {
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+.des #weatherDescription {
+  font-size: 1.8rem;
+}
+.detail {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.humidity span {
+  
+    display: inline-block;
+    /* text-align: center; */
+}
+.humidity h1 {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  font-weight: 400;
+  color: rgba(245, 245, 245, 0.829);
+  margin-bottom: 5px;
+}
+.humidity p {
+  color: white;
+  letter-spacing: 1px;
+}
+.humidity  i {
+  font-size: 2.4rem;
+    color: white ;
+}
+.windspeed span {
+    display: inline-block;
+}
+.windspeed h1{
+  
+ font-size: 1.3rem;
+  letter-spacing: 1px;
+  font-weight: 400;
+  color: rgba(245, 245, 245, 0.829);
+  margin-bottom: 5px;
+}
+.windspeed p {
+ color: white;
+  letter-spacing: 1px;
+}
+.windspeed i {
+  font-size: 2.4rem;
+    color: white ;
+}
+.future-forcast {
+display: flex;
+justify-content: space-around;
+margin-top: 50px;
+}
+.future-forcast div {
+text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+      background: rgba(255, 255, 255, 0.1);  
+  backdrop-filter: blur(10px);           
+  -webkit-backdrop-filter: blur(10px); 
+  border-radius: 20px;
+}
+.future-forcast div  h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.future-forcast div p{
+font-size: 2.2rem;
 }
