@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="style.css">
+    <title>Weather API</title>
+</head>
+<body>
+    <div class="main">
+        <section class="search">
+            <input type="text" placeholder="Search City" id="city">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </section>
+        <section class="location">
+            <span>
+                <i class="fa-solid fa-location-dot"></i>
+                <h2>Location Name</h2>
+            </span>
+            <span>
+                <p>Saturday , 21 Feb</p>
+            </span>
+        </section>
+        <section class="weather">
+            <div id="weatherIcon">⛅
+            </div>
+            <div class="des">
+               <h1 id="temp">29 °C</h1>
+               <p id="weatherDescription">Cloudy</p>
+            </div>
+        </section>
+        <section class="detail">
+            <div class="humidity">
+                <span>         <h1>Humidity</h1>
+                    <p id="humidity">55%</p>
+                </span>
+            </div>
+            <div class="windspeed">
+               <span>
+                <h1>Wind Speed</h1>
+                <p id="windSpeed">11 M/s</p>
+               </span>
+            </div>
+        </section>
+        <section class="future-forcast">
+            <div>
+               <h2 id="futureDate">22 feb</h2>
+                <p id="futureIcon">⛅</p>
+                <h2 id="futureTemp">30°C</h2>
+            </div>
+            <div>
+               <h2 >22 feb</h2>
+                <p >⛅</p>
+                <h2 >30°C</h2>
+            </div>
+            <div>
+               <h2 >22 feb</h2>
+                <p >⛅</p>
+                <h2 >30°C</h2>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
