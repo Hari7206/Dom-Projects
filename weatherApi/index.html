@@ -17,14 +17,21 @@
             <input type="text" placeholder="Search City" id="city">
             <i class="fa-solid fa-magnifying-glass"></i>
         </section>
-        <section class="location">
+        <div class="default">
+            <h1>Check the Weather
+<span>Instantly</span></h1>
+<p>Search for any city in the world and get real-time weather updates, all in one beautiful place.</p>
+<p class="last">Start by searching for a city above.</p>
+        </div>
+<div class="show">
+            <section class="location">
 
             <span>
                 <i class="fa-solid fa-location-dot"></i>
-                <h2>Location Name</h2>
+                <h2 id="loca-name">Location Name</h2>
             </span>
             <span>
-                <p>Saturday , 21 Feb</p>
+                <p id="current-date">Saturday , 21 Feb</p>
             </span>
         </section>
         <section class="weather">
@@ -68,6 +75,7 @@
                 <h2 class="futureTemp">30°C</h2>
             </div>
         </section>
+</div>
     </div>
     <script src="script.js"></script>
 </body>
